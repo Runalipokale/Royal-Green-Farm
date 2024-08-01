@@ -42,7 +42,7 @@ a:focus {
 }
 
 .tm-text-primary {
-  color: #3496d8;
+  color: #E4D00A;
 }
 
 .tm-font-big {
@@ -51,15 +51,16 @@ a:focus {
 
 .tm-btn-primary {
   color: white;
-  background-color: #3496d8;
+  background-color: #43cb80;
   padding: 14px 35px;
   border-radius: 30px;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
-  color: white;
-  background-color: #73c1f6;
+  background-color: white;
+  color: #43cb80;
+  border: 1px solid #43cb80;
 }
 
 /* Navbar */
@@ -85,11 +86,11 @@ a:focus {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #3496d8;
+  color:#43cb80;
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #8f8f8f;
+  color:#E4D00A;
 }
 
 .nav-item {
@@ -101,13 +102,13 @@ a:focus {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #8f8f8f;
+  color: #E4D00A;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #3496d8;
+  color: #43cb80;
 }
 
 .navbar-toggler {
@@ -203,7 +204,7 @@ a:focus {
 }
 
 .tm-down-arrow {
-  color: #c57e7d;
+  color: #8f8f8f;
   cursor: pointer;
   background: white;
   border-radius: 50%;
@@ -214,7 +215,7 @@ a:focus {
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: white;
-  background: #3496d8;
+  background: #43cb80;
 }
 
 /* Introduction */
@@ -232,7 +233,7 @@ a:focus {
 .tm-icon {
   display: block;
   margin-bottom: 55px;
-  color: #3496d8;
+  color: #8f8f8f;
 }
 
 /* Work */
