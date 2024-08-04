@@ -51,7 +51,7 @@ a:focus {
 
 .tm-btn-primary {
   color: white;
-  background-color: #43cb80;
+  background-color:yellowgreen;
   padding: 14px 35px;
   border-radius: 30px;
 }
@@ -60,7 +60,7 @@ a:focus {
 .tm-btn-primary:focus {
   background-color: white;
   color: #43cb80;
-  border: 1px solid #43cb80;
+  border: 1px solid yellowgreen;
 }
 
 /* Navbar */
@@ -86,7 +86,7 @@ a:focus {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color:#43cb80;
+  color:yellowgreen;
 }
 
 .tm-navbar.scroll .navbar-brand {
@@ -108,7 +108,7 @@ a:focus {
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #43cb80;
+  color: yellowgreen;
 }
 
 .navbar-toggler {
@@ -133,11 +133,16 @@ a:focus {
 /* Hero */
 
 #hero {
-  background-image: url(https://images.unsplash.com/photo-1493815793585-d94ccbc86df8?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(../img/hero_bg2.webp);
+  background-size:cover;
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
   position: relative;
+}
+
+#hero img{
+  width: fit-content
 }
 
 @media (min-height: 830px) {
@@ -170,6 +175,7 @@ a:focus {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  font-family: serif;
 }
 
 .tm-hero-text-container-inner {
@@ -215,7 +221,7 @@ a:focus {
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: white;
-  background: #43cb80;
+  background: yellowgreen;
 }
 
 /* Introduction */
@@ -238,6 +244,10 @@ a:focus {
 
 /* Work */
 
+.slick-list img{
+  height:30vh ;
+}
+
 .tm-work-description {
   max-width: 650px;
   width: 100%;
@@ -251,6 +261,7 @@ a:focus {
 
 .tm-gallery-item {
   margin: 0 15px;
+  image-resolution: 1000;
 }
 
 .slick-dots {
@@ -265,7 +276,7 @@ a:focus {
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #3ba0dd;
+  color: yellowgreen;
 }
 
 .slick-dots li button:before {
@@ -283,7 +294,7 @@ a:focus {
 	max-width: 480px;
 	max-height: 360px;
 	width: 48%; */
-  background: #3085a3;
+  background: yellowgreen;
   text-align: center;
   cursor: pointer;
 }
@@ -373,7 +384,7 @@ figure.effect-honey figcaption::before {
   left: 0;
   width: 100%;
   height: 10px;
-  background: #3496d8;
+  background: yellowgreen;
   content: "";
   -webkit-transform: translate3d(0, 10px, 0);
   transform: translate3d(0, 10px, 0);
@@ -417,11 +428,11 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-image: url(../img/grassimg.jpg);
+  background-image: url(../img/3d-plant.webp);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
-  position: relative;
+  position:relative;
   padding-bottom: 50px;
   padding-top: 160px;
 }
