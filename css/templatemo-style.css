@@ -42,7 +42,7 @@ a:focus {
 }
 
 .tm-text-primary {
-  color: #E4D00A;
+  color:yellowgreen;
 }
 
 .tm-font-big {
@@ -84,10 +84,10 @@ a:focus {
   font-weight: bold;
 }
 
-.navbar-brand:hover,
+/* .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
   color:yellowgreen;
-}
+} */
 
 .tm-navbar.scroll .navbar-brand {
   color:#E4D00A;
@@ -105,11 +105,11 @@ a:focus {
   color: #E4D00A;
 }
 
-.tm-navbar.scroll .tm-nav-link:hover,
+/* .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
   color: yellowgreen;
-}
+} */
 
 .navbar-toggler {
   border: 1px solid white;
@@ -133,16 +133,20 @@ a:focus {
 /* Hero */
 
 #hero {
-  background-image: url(../img/hero_bg2.webp);
+  background-image: url(../img/bitmap.png);
   background-size:cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 140vh;
   min-height: 375px;
   position: relative;
 }
 
 #hero img{
-  width: fit-content
+  width: fit-content;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  z-index: 1;
 }
 
 @media (min-height: 830px) {
@@ -176,6 +180,14 @@ a:focus {
   flex-flow: column;
   justify-content: center;
   font-family: serif;
+  z-index: 22;
+  perspective: 50%;
+}
+
+.tm-hero-subtitle{
+  font-size: 1.5rem;
+  font-family: serif;
+  z-index: 22;
 }
 
 .tm-hero-text-container-inner {
@@ -185,6 +197,7 @@ a:focus {
 .tm-hero-title {
   font-size: 3.5rem;
   text-shadow: 2px 2px 2px #333;
+  z-index: 22;
 }
 
 .tm-intro-next {
@@ -262,6 +275,9 @@ a:focus {
 .tm-gallery-item {
   margin: 0 15px;
   image-resolution: 1000;
+  aspect-ratio: 2/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
 }
 
 .slick-dots {
@@ -466,7 +482,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-contact-item-link:hover i,
 .tm-contact-item-link:hover span {
-  color: #3496d8;
+  color: yellowgreen;
 }
 
 .tm-input {
